@@ -1,0 +1,22 @@
+{
+  "name": "space_interval",
+  "actions": [
+    {
+      "type": "loop",
+      "count": 0,
+      "actions": [
+        {
+          "type": "key",
+          "vk_code": 32,
+          "hold_ms": 50,
+          "hold_jitter_ms": 10
+        },
+        {
+          "type": "wait",
+          "duration_ms": 1500,
+          "duration_jitter_ms": 200
+        }
+      ]
+    }
+  ]
+}

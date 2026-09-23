@@ -1,0 +1,17 @@
+{
+  "name": "timed_example",
+  "actions": [
+    {
+      "type": "timed",
+      "execute_ms": 5000,
+      "sleep_ms": 2000,
+      "repeat": 2,
+      "actions": [
+        { "type": "loop", "count": 0, "actions": [
+            { "type": "click", "x": 900, "y": 500, "hold_ms": 80 },
+            { "type": "wait", "duration_ms": 300 }
+        ]}
+      ]
+    }
+  ]
+}

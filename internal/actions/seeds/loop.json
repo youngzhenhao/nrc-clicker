@@ -1,0 +1,10 @@
+{
+	"name": "script_1",
+	"actions": [
+		{"type": "loop", "count": 0, "actions": [
+			{"type": "move", "x": 900, "y": 500, "duration_ms": 120},
+			{"type": "click", "x": 900, "y": 500, "hold_ms": 80},
+			{"type": "wait", "duration_ms": 300}
+		]}
+	]
+}

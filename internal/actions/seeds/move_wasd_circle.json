@@ -1,0 +1,21 @@
+{
+  "name": "move_wasd_circle",
+  "actions": [
+    {
+      "type": "loop",
+      "count": 0,
+      "pause_ms": 60,
+      "pause_jitter_ms": 25,
+      "actions": [
+        {"type": "combo", "vk_codes": [87, 68], "hold_ms": 1220, "hold_jitter_ms": 35},
+        {"type": "wait", "duration_ms": 120, "duration_jitter_ms": 35},
+        {"type": "combo", "vk_codes": [68, 83], "hold_ms": 1250, "hold_jitter_ms": 35},
+        {"type": "wait", "duration_ms": 120, "duration_jitter_ms": 35},
+        {"type": "combo", "vk_codes": [83, 65], "hold_ms": 1040, "hold_jitter_ms": 35},
+        {"type": "wait", "duration_ms": 120, "duration_jitter_ms": 35},
+        {"type": "combo", "vk_codes": [65, 87], "hold_ms": 1220, "hold_jitter_ms": 35},
+        {"type": "wait", "duration_ms": 120, "duration_jitter_ms": 35}
+      ]
+    }
+  ]
+}

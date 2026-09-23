@@ -1,0 +1,27 @@
+{
+  "name": "script_0",
+  "actions": [
+    {
+      "type": "timed",
+      "execute_ms": 60000,
+      "sleep_ms": 1000,
+      "forever": true,
+      "actions": [
+        {
+          "type": "click",
+          "x": 900,
+          "y": 500,
+          "x_jitter_px": 4,
+          "y_jitter_px": 4,
+          "hold_ms": 250,
+          "hold_jitter_ms": 80
+        },
+        {
+          "type": "wait",
+          "duration_ms": 100,
+          "duration_jitter_ms": 50
+        }
+      ]
+    }
+  ]
+}
